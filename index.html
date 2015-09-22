@@ -1,26 +1,46 @@
 <html>
 <head>
-
-<link rel="stylesheet" type="text/css" href="stylesheet.css">
-	<title>Bryce Hoeper's Website!</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Week 2 Homework</title>
 </head>
 <body>
-	<h1> About Me! </h1>
-	<img src="http://www.ccbtr.org/templates/ccbtr/common/boston_terrier_rescue.png">
-	<p>My name is Bryce Hoeper, and I am an 28 year old Oregon Native.</p>
-	<br>
-	<p>Some of my favorite things are:</p>
-		<ul>
-			<li>My girlfriend and family</li>
-			<li>My Dog Riley</li>
-			<li>Beer</li>
-			<li>The web!</li>
-		</ul>
-	<br>
-	<p> On the weekends, you can usually find me:</p>
-		<ul>
-			<li>Working</li>
-		</ul>
+
+<form>
+  First name:<br>
+	  <input type="text" name="firstname" size="45">
+	  <br>
+  Last name:<br>
+	  <input type="text" name="lastname" size="45">
+	  <br>
+  Phone:<br>
+	  <input type="text" name="phone" size="45">
+	  <br>
+  Email:<br>
+	  <input type="text" name="email" size="45">
+	  <br><br>
+  Did you enjoy your stay?<br>
+  	  <input type="radio" input name="stay">Yes<input type="radio" input name="stay">No
+  	  <br><br>
+
+   Rate your stay
+   <br>(1 = Horrible!  5 = The best stay ever!)<br>
+	  <select name="rate">
+		  <option value="rate5">5</option>
+		  <option value="rate4">4</option>
+		  <option value="rate3">3</option>
+		  <option value="rate2">2</option>
+		  <option value="rate1">1</option>
+	  </select>
+  	  <br><br>
+
+  Message:<br>
+	  <textarea name"message" rows="5" cols="50">
+	  </textarea>
+  <br><br>
+
+  <input type="submit" value="Submit">
+  
+</form>
 
 </body>
 </html>
