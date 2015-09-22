@@ -1,0 +1,20 @@
+html  {
+	background-color: gray;
+}
+
+body  {
+	color: #cfcfcf;
+}
+
+p  {
+	font-family: "Verdana";
+}
+
+li {
+	font-family: "Helvetica";
+	font-size: 14px;
+}
+
+h1  {
+	color: #a4a4a4;
+}
