@@ -1,18 +1,26 @@
-body {
-	background-color: #888888;
+html {
+	background-image: url("https://eatdrinksavorlife.files.wordpress.com/2015/06/assorted-donuts.jpg");
+	background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
-form {
-	color: #00EE88;
-	font-family: 'Open Sans', serif;
-	font-size: 30px;
+h1 {
+	text-align: center;
+	margin-top: 50px;
+	font-family: 'Lobster', cursive;
+	font-size: 95px;
+	color: #eebb88;   
+	-webkit-text-stroke-width: .01px;
+   -webkit-text-stroke-color: white;
 }
 
-input {
-	background-color: #BBBBBB;
-	size: 155px;
-}
-
-textarea {
-	background-color: #BBBBBB;
+#shopDescription {
+	text-align: center;
+	margin: 0 auto;
+	padding: 25px;
+	font-family: 'Sigmar One', cursive;
+	font-size: 25px;
+	background:rgba(255,255,255,0.75);
+	width: 55%;
 }
