@@ -24,3 +24,23 @@ h1 {
 	background:rgba(255,255,255,0.75);
 	width: 55%;
 }
+
+table.main {
+	text-align: center;
+	margin: 0 auto;
+	padding: 25px;
+	font-family: 'Sigmar One', cursive;
+	font-size: 25px;
+	background:rgba(255,255,255,0.75);
+	width: 55%;
+}
+
+tr.on {
+	width: 25px;
+	background-color: #eebb88;
+}
+
+tr.off {
+	width: 25px;
+	background-color: #eeddaa;
+}
